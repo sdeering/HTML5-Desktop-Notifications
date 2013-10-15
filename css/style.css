@@ -1,0 +1,53 @@
+body {
+    margin: 10px; font-family: sans-serif;
+    padding: 30px;
+}
+#statusWrapper { background: #EAE9E9; margin: 1em 0; padding: 0.5em; font-size: x-small; text-align: left; }
+#request { text-align: center; margin-top: 75px; }
+#request p { margin: 0.2em 0; }
+#request button {
+  font-size: 24px; padding: 10px;
+}
+@-webkit-keyframes pulse {
+ from { margin-left: 400px; }
+ to { margin-left: 0; }
+}
+#status.visible {
+  -webkit-animation-name: pulse;
+  -webkit-animation-duration: 0.3s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: normal;
+}
+footer {
+    font-size: 10px;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    padding:15px;
+}
+#da-title{
+    width: 350px;
+    height: 15px;
+    font-size: 12px;
+}
+#da-message{
+    width: 350px;
+    height: 100px;
+    font-size: 12px;
+}
+
+/* BSA */
+.bsap {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+}
+.close_bsap {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  padding: 5px 8px;
+}
